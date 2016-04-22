@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+  <style>
+    .menu li{
+      float: left;
+      width: 100px;
+      height: 30px;
+      text-align: center;
+      line-height: 30px;
+      background-color: #9cf;
+      list-style-type: none;
+      margin: 3px;
+    }
+    .menu li a:link{
+      color: #000;
+      font: bold 14px/1.5 simsum;
+      text-decoration: none;
+      padding: 10px 30px;
+    }
+    .menu li:hover{
+      background-color: #06f;
+    }
+    .menu li a:hover{
+      color:#fff;
+    }
+    .menu li ul{
+      display:none;
+      padding: 0;
+    }
+    .menu li ul li{
+      float:none;
+      margin:0;
+      background-color: #eee;
+     /*  position:relative;
+      left:-40px; */
+    }
+    .menu li:hover ul{
+      display: block;
+    }
+    /*
+      当鼠标悬停aaali的时候，把aaali下面的ul显示出来
+    */
+  </style>
+<body>
+  <ul class="menu">
+    <li><a href="">aaa</a>
+      <ul>
+        <li><a href="#">111</a></li>
+        <li><a href="#">111</a></li>
+        <li><a href="#">111</a></li>
+        <li><a href="#">111</a></li>
+        <li><a href="#">111</a></li>
+      </ul>
+    </li>
+    <li><a href="">bbb</a>
+      <ul>
+        <li><a href="#">222</a></li>
+        <li><a href="#">222</a></li>
+        <li><a href="#">222</a></li>
+        <li><a href="#">222</a></li>
+        <li><a href="#">222</a></li>
+      </ul>
+    </li>
+    <li><a href="">ccc</a>
+       <ul>
+         <li><a href="#">333</a></li>
+         <li><a href="#">333</a></li>
+         <li><a href="#">333</a></li>
+         <li><a href="#">333</a></li>
+         <li><a href="#">333</a></li>
+       </ul>
+    </li>
+    <li><a href="">ddd</a>
+       <ul>
+         <li><a href="#">444</a></li>
+         <li><a href="#">444</a></li>
+         <li><a href="#">444</a></li>
+         <li><a href="#">444</a></li>
+         <li><a href="#">444</a></li>
+       </ul>
+    </li>
+  </ul>
+</body>
+</html>
